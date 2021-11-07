@@ -93,7 +93,7 @@ namespace UnIdy
                 }
             }
 
-            var latency = (int)_ingameState.CurLatency;
+            var latency = (int)_ingameState.ServerData.Latency;
             var listOfNormalInventoryItemsToIdentify = new List<NormalInventoryItem>();
 
             foreach (var normalInventoryItem in normalInventoryItems)
